@@ -1,0 +1,26 @@
+body{
+	font: 12px helvetica;
+	background: #a6a6a6;
+}
+#chart{
+	width: 600px;
+	height: 300px;
+	background: #fff;
+	border: 2px solid #45b2d1;
+	margin: 3% auto;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
